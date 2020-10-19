@@ -3,7 +3,7 @@ Space Chess
 
 Chess on a 3D hexagonal grid, with spaceships!
 
-<img src="blurry_pic.jpg" alt="Picture of spherical chess board with spaceship pieces." width="600px"/>
+<img src="blurry_picture.jpg" alt="Picture of spherical chess board with spaceship pieces." width="600px"/>
 
 Rules
 -----
