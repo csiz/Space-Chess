@@ -28,18 +28,19 @@ Command ships are the key unit that must be protected. They are however weak and
 Gunships are the long distance siege units. They can fire an *Impactor* that will destroy any
 ship it encounters. Beware that it can do a full orbit and destroy your own gunship! The
 projectile will dissipate if it encounters the pentagonal holes on the grid.
-* Move 1 hex and reorient, or reorient in place.
 * Fire projectile in direction the ship is facing. The *Impactor* will move in a straight line
 by 1 hex at the end of each player's turn (thus 2 hexes per round). Projectiles will appear
 directly in front of the *Gunship* (although it's recommended you place it directly 2 hexes in
 front as it will immediately advance at the end of the turn). If firing twice in a row, place
 the projectiles 1 and 2 hexes in front of the ship and skip advancing them.
+* Rotate the ship to aim.
+* Move 1 hex; the gunship should then be pointed in the direction it moved.
 
 
 *Fighter*:
 
 Fighters are the agile attacking units.
-* Move up to 2 hexes per action. If using both actions to move the same ship, then the second
+* Move up to 2 hexes in a straight line. If using both actions to move the same ship, then the second
 move is limited to 1 hex distance.
 
 
