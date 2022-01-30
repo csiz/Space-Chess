@@ -8,57 +8,51 @@ Chess on a 3D hexagonal grid, with spaceships!
 Rules
 -----
 
-The Aliens and Terrans are engaged in battle with their ships and mines. Both factions have
-the same ship classes with different styling. The aim is to destroy the enemy command ship.
+The Aliens and Terrans are engaged in battle with their ships. Both factions have the same ship
+classes with different styling. The aim is to destroy the enemy command ship, the circular ships
+with a ball in the middle.
 
-Players take turns making their moves, each turn a player has 2 actions he can perform, except
-for the first turn when the first player should perform just 1 action. Every ship can move 1
-hex as one of their actions, but otherwise they have different abilities listed below. After
-every turn there is a battle stage where projectiles advance and ships are destroyed.
+Players take turns making their moves. There are 2 actions allowed per turn except the first turn
+where the first player starts with only 1 action. Every ship can move 1 hex into a free space as one
+of their actions, but they have different abilities depending on their type. After every turn there
+is a battle stage where projectiles advance and ships are destroyed.
 
 
 *Command Flagship*:
 
-Command ships are the key unit that must be protected. They are however weak and move slowly.
-* Move 1 hex.
+Command ships are the key unit that must be protected, but they move slowly.
+* Move one hex to a free space.
 
 
 *Gunship*:
 
-Gunships are the long distance siege units. They can fire an *Impactor* that will destroy any
+Gunships are long distance siege units. They can fire an *Impactor* that will destroy any
 ship it encounters. Beware that it can do a full orbit and destroy your own gunship! The
 projectile will dissipate if it encounters the pentagonal holes on the grid.
-* Fire projectile in direction the ship is facing. The *Impactor* will move in a straight line
-by 1 hex at the end of each player's turn (thus 2 hexes per round). Projectiles will appear
-directly in front of the *Gunship* (although it's recommended you place it directly 2 hexes in
-front as it will immediately advance at the end of the turn). If firing twice in a row, place
-the projectiles 1 and 2 hexes in front of the ship and skip advancing them.
-* Rotate the ship to aim.
-* Move 1 hex; the gunship should then be pointed in the direction it moved.
+* Move one hex to a free space.
+* Fire a projectile in any direction. Start by placing the *Impactor* directly in front of the ship,
+then at the end of subsequent turns advance your in-flight projectiles by 3 hexes in a straight line.
 
 
 *Fighter*:
 
 Fighters are the agile attacking units.
-* Move up to 2 hexes in a straight line. If using both actions to move the same ship, then the second
-move is limited to 1 hex distance.
-
+* Move up to two hexes in a straight line per action. Must land in a free space.
 
 *Support Ship*:
 
 Support ships deploy up to 5 *Mines* to provide tactical cover. Once placed the mines can not
 be moved, but will act as an allied ship during the battle stage.
-* Move 1 hex.
-* Deploy 1 *Mine* in an adjacent hex, but not in a hex adjacent to an enemy ship or mine.
+* Move one hex to a free space.
+* Deploy a *Mine* in an adjacent hex, but not in a hex adjacent to an enemy ship or mine.
 
 
 ### Battle Stage
 
-After each player takes their actions there is a battle stage that occurs in 4 steps.
-1. Projectiles: Advance both player's *Impactors* by 1 hex.
-2. Direct Strike: If any ship or impactor was moved on the hex of an enemy ship then both ships get destroyer.
-A draw can be obtained by mutual command ship destruction.
-3. Outnumbered: Any ship or mine that's adjacent to 2 enemy ships or mines (but no projectiles) gets destroyer.
-Mines will be spent in an attack, however the attacking ships will be spared if not themselves outnumbered.
-4. Isolated Skirmish: Any lone ships or mines adjacent to an isolated enemy ship or mine will be destroyed and
-take down the enemy with them.
+After each player takes their actions there is a battle stage that occurs in 3 steps.
+1. Direct Strike: Move the player's projectiles ahead by 3 hexes or destroy the first unit that was in the path
+of the projectile. The *Impactor* will hit any unit including your own, you can use it to clear mines or intercept
+other projectiles. Remove the *Impactor* and place it back for reuse after it hits a target or forbidden pentagons.
+2. Outnumbered: Destroy every ship or mine that's adjacent to 2 or more enemy ships or mines (but not projectiles).
+Mines will be spent in an attack. The attacking ships will be spared if not themselves outnumbered.
+3. Mutual Destruction: Any ship adjacent to 1 enemy ship or mine will be destroyed and take down the enemy with them.
