@@ -75,5 +75,14 @@ Mines will be spent in an attack. The attacking ships will be spared if not them
     <img src="Media/mutual-destruction-annotated.jpg" alt="Mutual destruction." width="320px"/>
 </p>
 
+### Assembly
+
+The arm piece snap fits into the base; it requires a bit of force, but not too much. You'll have to stretch the ring 
+to push it in place around the ball; then stretch the long arm to put the ring on the base. The ships are in the base!
+
+<p float="left">
+    <img src="Media/assembly.png" alt="Assembly instructions." width="320px"/>
+    <img src="Media/space-chess-code.png" alt="QR code." width="320px"/>
+</p>
 
 **Thanks for playing!** Space Chess is open-source, you can find the rules and 3D models at: github.com/csiz/Space-Chess
