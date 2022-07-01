@@ -24,13 +24,13 @@ projectiles advance and ships are destroyed.
     <img src="Media/terran-ships-annotated.jpg" alt="Terran ships." width="320px"/>
 </p>
 
-*Command Flagship*:
+**Command Flagship**:
 
 Command ships are the key unit that must be protected, but they move slowly.
 * Move up to 2 hexes to a free space.
 
 
-*Gunship*:
+**Gunship**:
 
 Gunships are long distance siege units. They can fire an *Impactor* that will destroy any
 ship it encounters. Beware that it can do a full orbit and destroy your own gunship! The
@@ -42,7 +42,7 @@ then at the end of subsequent turns advance your in-flight projectiles by 4 hexe
 <img src="Media/gunships-annotated.jpg" alt="Gunships behaviour." width="320px"/>
 
 
-*Fighter*:
+**Fighter**:
 
 Fighters are the agile attacking units.
 * Move up to 4 hexes in a straight line per action. Must land in a free space.
@@ -50,7 +50,7 @@ Fighters are the agile attacking units.
 <img src="Media/fighters-annotated.jpg" alt="Fighter behaviour." width="320px"/>
 
 
-*Support Ship*:
+**Support Ship**:
 
 Support ships deploy up to 5 *Mines* to provide tactical cover. Once placed the mines can not
 be moved, but will act as an allied ship during the battle stage.
@@ -69,3 +69,8 @@ other projectiles. Remove the *Impactor* and place it back for reuse after it hi
 2. Outnumbered: Destroy every ship or mine that's adjacent to 2 or more enemy ships or mines (but not projectiles).
 Mines will be spent in an attack. The attacking ships will be spared if not themselves outnumbered.
 3. Mutual Destruction: Any ship adjacent to 1 enemy ship or mine will be destroyed and take down the enemy with them.
+
+<p float="left">
+    <img src="Media/outnumbered-annotated.jpg" alt="Outnumbered." width="320px"/>
+    <img src="Media/mutual-destruction-annotated.jpg" alt="Mutual destruction." width="320px"/>
+</p>
