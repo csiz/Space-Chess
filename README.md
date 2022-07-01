@@ -74,3 +74,6 @@ Mines will be spent in an attack. The attacking ships will be spared if not them
     <img src="Media/outnumbered-annotated.jpg" alt="Outnumbered." width="320px"/>
     <img src="Media/mutual-destruction-annotated.jpg" alt="Mutual destruction." width="320px"/>
 </p>
+
+
+**Thanks for playing!** Space Chess is open-source, you can find the rules and 3D models at: github.com/csiz/Space-Chess
