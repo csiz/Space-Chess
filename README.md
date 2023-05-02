@@ -26,8 +26,11 @@ projectiles advance and ships are destroyed.
 
 **Command Flagship**:
 
-Command ships are the key unit that must be protected, but they move slowly.
-* Move up to 2 hexes to a free space.
+Command ships are the key unit that must be protected, the objective is to destroy the enemy command!
+The command ships are large and occupy 7 hexes, the center and all adjacent hexes (and they can hover
+over the forbidden pentagons). Consider any other place within 2 hexes of the center as adjacent.
+* Move up to 2 hexes to a free space, all hexes must be free.
+* Use both actions to re-build any destroyed ship.
 
 
 **Gunship**:
@@ -36,8 +39,10 @@ Gunships are long distance siege units. They can fire an *Impactor* that will de
 ship it encounters. Beware that it can do a full orbit and destroy your own gunship! The
 projectile will dissipate if it encounters the pentagonal holes on the grid.
 * Move up to 2 hexes to a free space.
-* Fire a projectile in any direction. Start by placing the *Impactor* directly in front of the ship,
-then at the end of subsequent turns advance your in-flight projectiles by 4 hexes in a straight line.
+* Fire a projectile in any direction. Start by placing the *Impactor* directly in front of the ship.
+At the beggining of each turn advance in-flight projectiles by 4 hexes in a straight line, as fired.
+Projectiles destroy the first unit in their path, friend or foe. Remove the *Impactor* and place it 
+back for reuse after it hits a target or passes over the forbidden pentagons.
 
 <img src="Media/gunships-annotated.jpg" alt="Gunships behaviour." width="320px"/>
 
@@ -45,7 +50,7 @@ then at the end of subsequent turns advance your in-flight projectiles by 4 hexe
 **Fighter**:
 
 Fighters are the agile attacking units.
-* Move up to 4 hexes in a straight line per action. Must land in a free space.
+* Move up to 3 hexes in a straight line per action. Must traverse a free path.
 
 <img src="Media/fighters-annotated.jpg" alt="Fighter behaviour." width="320px"/>
 
@@ -62,20 +67,18 @@ be moved, but will act as an allied ship during the battle stage.
 
 ### Battle Stage
 
-After each player takes their actions there is a battle stage that occurs in 3 steps.
-1. Direct Strike: Move the player's projectiles ahead by 4 hexes or destroy the first unit that was in the path
-of the projectile. The *Impactor* will hit any unit including your own, you can use it to clear mines or intercept
-other projectiles. Remove the *Impactor* and place it back for reuse after it hits a target or forbidden pentagons.
-2. Outnumbered: Destroy every ship or mine that's adjacent to 2 or more enemy ships or mines (but not projectiles).
-Mines will be spent in an attack. The attacking ships will be spared if not themselves outnumbered.
-3. Mutual Destruction: Any ship adjacent to 1 enemy ship or mine will be destroyed and take down the enemy with them.
+After a player takes both actions there is a battle stage where ships next to an enemy will fight.
+Calculate the power of each fighting ship by the number of friendly ships or mines next to it.
+For every pair of battling ships, destroy the ones that have less or equal power. Equal battles 
+means that both sides lose. Also destroy all mines that participated in battle (adjacent to a 
+friendly ship that needed their power).
 
 <p float="left">
     <img src="Media/outnumbered-annotated.jpg" alt="Outnumbered." width="320px"/>
     <img src="Media/mutual-destruction-annotated.jpg" alt="Mutual destruction." width="320px"/>
 </p>
 
-### Assembly
+### Game Board Assembly
 
 The arm piece snap fits into the base; it requires a bit of force, but not too much. You'll have to stretch the ring 
 to push it in place around the ball; then stretch the long arm to put the ring on the base. The ships are in the base!
