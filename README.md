@@ -27,8 +27,6 @@ projectiles advance and ships are destroyed.
 **Command Flagship**:
 
 Command ships are the key unit that must be protected, the objective is to destroy the enemy command!
-The command ships are large and occupy 7 hexes, the center and all adjacent hexes (and they can hover
-over the forbidden pentagons). Consider any other place within 2 hexes of the center as adjacent.
 * Move up to 2 hexes to a free space, all hexes must be free.
 * Use both actions to re-build any destroyed ship.
 
